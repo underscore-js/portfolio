@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+}
+.main {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.header {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+}
+.heading__logo {
+  font-size: 2rem;
+  margin-left: 40px;
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+.link__cart {
+  display: flex;
+  margin: 10px 10px 10px 40px;
+  list-style: none;
+}
+.link__cart > .link {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+}
+.link__cart > .link > a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+.link:hover {
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+.header__right {
+  margin-right: 50px;
+}
+.header__buttons > a {
+  padding: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+}
+.signUp_btn,
+.main__btn {
+  background-color: black;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize !important;
+  font-family: sans-serif;
+}
+.main__section {
+  display: flex;
+  margin: 10px 40px 10px 40px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.footer {
+  margin: 0 40px;
+}
+.main__right {
+  text-align: center;
+  /* margin-right: 10%; */
+}
+.main__right > img {
+  object-fit: contain;
+  width: 70%;
+}
+.main__left {
+  text-align: left;
+  margin-left: 10%;
+  width: 40%;
+}
+.main__left > h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4rem;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.main__left > h3 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 50px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.main__left > a {
+  padding: 20px;
+}
+.footer__right > img {
+  width: 40px;
+  object-fit: contain;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+.main__right__btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.footer__left {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer__left > a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: black;
+}
+.footer__btn {
+  border: 2px solid black;
+}
